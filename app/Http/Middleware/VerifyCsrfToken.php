@@ -13,6 +13,15 @@ class VerifyCsrfToken extends Middleware
      */
     protected $except = [
         //排除——token验证
-        'login'
+        'login',
+        'regist',
+        'sms',
+        'forgetpassword',
+        'changePassword',
+        'business',
+        'addressList',
+        'addAddress',
+        'address',
+        'editAddress',
     ];
 }
